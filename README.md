@@ -1,3 +1,3 @@
 # 2048 Game
 
-For you gaming pleasure
+For your gaming pleasure.

@@ -1,21 +1,19 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import Game from './components/Game';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import GameBoard from './components/GameBoard';
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Game />
-    </View>
+    <SafeAreaView style={styles.container}>
+      <GameBoard />
+    </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#faf8ef',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
 
